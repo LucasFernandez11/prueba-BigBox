@@ -1,0 +1,19 @@
+@import 'shared';
+
+#similares{
+    @include flex-column;
+    margin-bottom:100px;
+    width:100%;
+}
+
+.similares-title{
+    font-family: $main-font;
+    color:$main-color;
+    font-size:22px;
+    font-weight:700;
+    align-self: flex-start;
+}
+.similares-cards{
+    @include flex-row;
+    flex-wrap:wrap;
+}

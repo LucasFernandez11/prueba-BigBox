@@ -1,0 +1,18 @@
+@import 'shared';
+@import 'actividades.scss';
+@import 'card.scss';
+@import 'actividad.scss';
+@import 'actividad-info.scss';
+@import 'benefits.scss';
+@import 'home.scss';
+@import 'similares.scss';
+
+body{
+    margin:0;
+    @include flex-column;
+}
+#app{
+    @include flex-column;
+    width:80%;
+    height:auto;
+}

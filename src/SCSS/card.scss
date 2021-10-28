@@ -1,0 +1,68 @@
+@import 'shared';
+
+
+#card{
+    width: 369px;
+    border-radius: 4px;
+    color: $main-color;
+    font-family: $main-font;
+    padding:10px;
+    transition: all 0.4s ease-in-out;
+}
+#card:hover{
+    box-shadow:0px 1px 10px 5px rgba(0,0,0,0.08);
+    //transform: scale(1.01, 1.01);
+    .card-header-title{
+        color:$color;
+    }
+}
+
+.card-img{
+    height: 240px;
+    width: 369px;
+    border-radius: 4px;
+    overflow:hidden;
+}
+img{
+    width:100%;
+    height:auto;
+}
+.card-header{
+    display:flex;
+    justify-content: space-between;
+    align-content: center;
+    &-title{
+        font-weight: 700;
+        font-size:18px;
+    }
+    &-icon{
+        font-size:18px;
+        padding-top:18px;
+        padding-right: 20px;
+    }
+
+}
+.card-location{
+    &-info{
+        font-weight: 400;
+        font-size:14px;
+        color:#000;
+    }
+    &-icon{
+        color:$color;
+        padding-right:4px;
+    }
+    
+}
+.card-description{
+    height:72px;
+    &-text{
+        font-weight: 400;
+        font-size:14px;
+    }
+}
+
+.card-points-text{
+    font-weight: 600;
+    font-size:18px;
+}
